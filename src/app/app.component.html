@@ -1,0 +1,17 @@
+<div class="body">
+<div class="container">
+<h1>Today Todo</h1>
+<div class="main">
+  <ul>
+    <li *ngFor = "let i of items; let ind = index">
+      {{i}}
+      <span (click) = "removeItem(ind)">X</span>
+    </li>
+  </ul>
+  <div class="addItem">
+    <input [(ngModel)] = "newItem" placeholder="Add Item" class="addText">
+    <button (click) = "pushItem()">+</button>
+  </div>
+</div>
+</div>
+</div>

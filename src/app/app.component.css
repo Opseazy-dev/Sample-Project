@@ -1,0 +1,118 @@
+.body {
+    background: linear-gradient(to top, #db75ef, #9aefe6);
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.main {
+    max-width: 540px;
+    max-height: 320px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #d7d7d7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    background-color: #fff;
+    color: #07A599;
+    font-size: 32px;
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 540px;
+    
+}
+.addItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #07A599;
+    border-radius: 50px;
+    max-width: 430px;
+    max-height: 52px;
+    position: absolute;
+    top: 550px;
+
+}
+.addText {
+    width: 380px;
+    height: 44px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.addItem button {
+    width: 45px;
+    height: 42px;
+    border: none;
+    background: #07A599;
+    border-radius: 50px;
+    font-size: 42px;
+    color: white;
+    margin: 2px ;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #07A599;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top: 320px;
+    left: 510px;
+    overflow-y: scroll;
+}
+li {
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #C3E9E7;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+
+    
+}
+span {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    background: red;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 2px;
+    box-sizing: border-box;
+}
